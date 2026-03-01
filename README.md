@@ -10,8 +10,9 @@
 <img src='./workflow.png'>
 <br>
 
-## 使用
+## 使用方法
 
 1. 在`.env`中配置好各种 api key。
-2. 由于网络搜索工具使用了 duckduckgo，在国内需要打开代理软件才能正常调用该工具执行搜索
-3. 运行`main_async.py`或`main_sync.py`在控制台对话，运行`async_chat_demo.py`或`sync_chat_demo.py`在Gradio界面对话。不过`async_chat_demo.py`使用流式输出会导致大模型的工具调用和用户消息混在一起，效果不佳，推荐使用`sync_chat_demo.py`。
+2. 由于网络搜索工具使用了 duckduckgo，所以在国内需要打开代理软件才能正常调用该工具执行搜索
+3. 运行`main_async.py`或`main_sync.py`在控制台对话，运行`async_chat_demo.py`或`sync_chat_demo.py`在Gradio界面对话。不过`async_chat_demo.py`使用流式输出会导致大模型的工具调用和用户消息混在一起，效果不佳，所以后面改成了使用`sync_chat_demo.py`。
+4. 个人手搓项目，引用请注明来源
